@@ -32,7 +32,7 @@ class CategoryResource extends Resource
         return Heroicon::Squares2x2;
     }
 
-    protected static string|UnitEnum|null $navigationGroup = 'Inventory';
+    protected static string|UnitEnum|null $navigationGroup = 'Catalog';
 
     protected static ?int $navigationSort = 4;
 
